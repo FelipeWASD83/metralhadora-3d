@@ -1,0 +1,50 @@
+METRALHADORA 3D: relatório
+
+cano                     446.5 x  26.0 x   26.0 mm    3952 triângulos  fechada
+quebra_chamas             62.0 x  22.6 x   22.6 mm    4986 triângulos  fechada
+guarda_mao               183.0 x  59.9 x   66.0 mm    9132 triângulos  fechada
+tubo_gas                 100.0 x  12.0 x   12.0 mm     128 triângulos  fechada
+bloco_gas                 40.0 x  32.0 x   54.0 mm    1452 triângulos  fechada
+massa_mira                25.9 x  18.2 x   44.0 mm    3516 triângulos  fechada
+bipe                     199.5 x  39.0 x   17.0 mm    4308 triângulos  fechada
+alca                     133.0 x  37.0 x  104.1 mm    4700 triângulos  fechada
+armacao                  308.0 x  61.0 x   84.0 mm    6596 triângulos  fechada
+bandeja                   84.0 x  30.0 x    2.6 mm    1116 triângulos  fechada
+encaixe                  120.0 x  16.0 x    5.5 mm     108 triângulos  fechada
+pino1                      5.2 x  57.2 x    5.2 mm     256 triângulos  fechada
+pino2                      5.2 x  57.2 x    5.2 mm     256 triângulos  fechada
+pino3                      5.2 x  57.2 x    5.2 mm     256 triângulos  fechada
+pino4                      5.2 x  57.2 x    5.2 mm     256 triângulos  fechada
+pino5                      5.2 x  57.2 x    5.2 mm     256 triângulos  fechada
+caixa_gatilho            126.3 x  28.0 x   21.0 mm    1288 triângulos  fechada
+pino_gatilho               3.6 x  29.2 x    3.6 mm     256 triângulos  fechada
+guarda_mato               64.4 x  12.0 x   34.9 mm    1340 triângulos  fechada
+gatilho                   15.6 x   6.0 x   32.2 mm    1256 triângulos  fechada
+empunhadura               73.5 x  31.9 x  101.8 mm    3068 triângulos  fechada
+coronha                  266.0 x  42.0 x  139.8 mm    2188 triângulos  fechada
+soleira                   16.0 x  44.0 x  141.9 mm    1200 triângulos  fechada
+tampa                    250.4 x  54.0 x   48.0 mm   10692 triângulos  fechada
+ferrolho                  20.0 x  36.5 x   14.4 mm    1524 triângulos  fechada
+pente                    146.0 x  73.4 x  195.2 mm   12256 triângulos  fechada
+estojo_topo               51.3 x  12.0 x   12.0 mm     896 triângulos  fechada
+bala_topo                 25.1 x   7.8 x    7.8 mm     400 triângulos  fechada
+
+Total: 30 peças, 77638 triângulos (sem contar as escondidas)
+Comprimento 1044 mm, altura 258 mm (da alça de transporte ao fundo da caixa de munição), largura 133 mm
+Sem textura: tudo é cor lisa.
+As peças se sobrepõem de propósito nas junções: cada uma é um sólido fechado, não uma malha única.
+
+Animações (30 qps): repouso 1 a 2, tiro 5 a 7, recarregar 12 a 121
+Eventos (quadro contado do começo da faixa): tiro: disparo 1; recarregar: tampa_abre 13, pente_sai 25, troca 45, pente_entra 66, tampa_fecha 75, ferrolho 88
+Cruzamentos entre peças (triângulos que se tocam; repouso -> no momento):
+  tiro, disparo (quadro 5): nada novo
+  tiro, estojo saindo (quadro 6): nada novo
+  tiro, estojo caindo (quadro 7): nada novo
+  recarga, tampa aberta (quadro 33): nada novo
+  recarga, fita saindo (quadro 39): nada novo
+  recarga, caixa caindo (quadro 48): nada novo
+  recarga, caixa nova subindo (quadro 65): nada novo
+  recarga, fita entrando (quadro 73): nada novo
+  recarga, tampa fechando (quadro 83): nada novo
+  recarga, manejo atrás (quadro 99): nada novo
+No repouso: tampa x armacao: 10

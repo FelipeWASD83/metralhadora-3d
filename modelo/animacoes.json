@@ -1,0 +1,40 @@
+{
+  "raiz": "metralhadora",
+  "fps": 30,
+  "faixas": {
+    "repouso": {
+      "inicio": 1,
+      "quadros": 2,
+      "eventos": {}
+    },
+    "tiro": {
+      "inicio": 5,
+      "quadros": 3,
+      "eventos": {
+        "disparo": 1
+      }
+    },
+    "recarregar": {
+      "inicio": 12,
+      "quadros": 110,
+      "eventos": {
+        "tampa_abre": 13,
+        "pente_sai": 25,
+        "troca": 45,
+        "pente_entra": 66,
+        "tampa_fecha": 75,
+        "ferrolho": 88
+      }
+    }
+  },
+  "pecas": [
+    "ferrolho",
+    "gatilho",
+    "tampa",
+    "pente",
+    "estojo_topo",
+    "bala_topo",
+    "clarao",
+    "estojo_ejetado"
+  ]
+}
